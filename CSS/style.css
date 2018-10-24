@@ -1,0 +1,153 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Fira Mono', monospace;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+
+    border-bottom: 1px solid black;
+
+    width: 100%;
+    height: auto;
+
+    background-color: black;
+
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    font-size: 1.3rem;
+    margin-right: auto;
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+
+nav h1 a {
+    color: white;
+}
+
+nav h1 a:hover {
+    color: purple;
+}
+
+.home-nav__ul {
+    font-size: 1rem;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+.home-nav__ul li {
+    display: inline;
+    margin-left: .7rem;
+}
+
+.home-nav__ul li a {
+    color: white;
+}
+
+.home-nav__ul li a:hover {
+    color: purple;
+}
+
+.main-container {
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    /* grid-auto-rows: auto; */
+
+    /* bottom: 10%; */
+}
+
+.main-left {
+    background-color: whitesmoke;
+    padding-top: 1rem;
+    padding-left: .7rem;
+}
+
+.main-left__list {
+    list-style-type: none;
+    padding: .4rem;
+}
+
+.main-left__list li {
+    margin-bottom: 1em;
+}
+
+.main-left__list li a:hover {
+    color: black;
+}
+
+.main-center {
+    background-color: red;
+    padding: .3rem;
+}
+
+.center_welcome-message {
+    padding: .2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.par-content h3 {
+    font-size: .5rem;
+    color: white;
+}
+
+.par-content span {
+    font-size: .5rem;
+}
+
+.main-right {
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 1.7rem;
+}
+
+.right_curr-leadership-title {
+    font-size: 1.1rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.right_curr-leadership small {
+    font-size: .7rem;
+}
+
+.right_curr-leadership ul {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.right_curr-leadership ul li>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-top: .4rem;
+    border: 1px solid black;
+}
+
+.footer-flex {
+    position: fixed;
+    display: inline-flex;
+    justify-content: flex-end;
+
+    bottom: 0;
+
+    width: 100%;
+    background-color: black;
+}
+
+.footer-flex span {
+    color: white;
+    margin-right: 1em;
+    font-size: .6rem;
+}
